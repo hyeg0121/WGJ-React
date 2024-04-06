@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+}
+
+
+:root {
+    /* primary scale */
+    --primary-100: #E9F6F4;
+    --primary-300: #7ADFCD;
+    --primary-500: #63D1BD;
+    --primary-700: #48BBA7;
+
+    /* gray scale */
+    --gray-100: #F6F6F6;
+    --gray-300: #D9D9D9;
+    --gray-500: #C0C0C0;
+    --gray-700: #6A6969;
+
+    /* black & white */
+    --black: #1F1F1F;
+    --white: #FFF;
+
+    /* 여백 */
+    --main-margin: 20px;
+}
+
+* {
+    /* 폰트 설정 */
+    color: var(--black);
+    font-size: 1rem;
+    font-size: none;
+    font-family: 'Pretendard';
+    text-decoration: none;
+    line-height: 160%;
+
+    /* 여백 설정 */
+    margin: 0;
+    padding: 0;
+
+    /* 리스트 설정 */
+    list-style: none;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.main_container {
+    width: 100%;
+    padding: 25px 20px 0 20px;
+}
