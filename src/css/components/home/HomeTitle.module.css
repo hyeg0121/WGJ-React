@@ -1,0 +1,29 @@
+.title_container {
+    margin: 6vh 0;
+    padding: 0 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.top_title {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 4vh;
+}
+
+.bottom_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.amount {
+    line-height: 120%;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.tag {
+    color: var(--primary-500);
+    font-weight: 600;
+}
