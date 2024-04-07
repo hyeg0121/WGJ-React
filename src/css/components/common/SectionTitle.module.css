@@ -1,0 +1,7 @@
+.section_title {
+    font-size: 14px;
+    color: var(--gray-500);
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 12px;
+}
