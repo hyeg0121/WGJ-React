@@ -1,0 +1,22 @@
+.container {
+    margin: 0 20px 12px 20px;
+    width: calc(100% - 40px);
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-100);
+    border-radius: 6px;
+}
+
+.item {
+    font-weight: 400;
+}
+
+.amount {
+    font-weight: 600;
+}
+
+.room {
+    color: var(--primary-500);
+}
