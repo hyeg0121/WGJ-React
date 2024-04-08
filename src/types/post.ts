@@ -9,3 +9,11 @@ export interface PostData extends CommonData {
     item: string
     content: string
 }
+
+export interface PostRequestData {
+    authorId: number
+    roomId: number
+    amount: number
+    item: string
+    content: string
+}
