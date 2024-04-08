@@ -10,7 +10,6 @@ export default function Home() {
       <SectionTitle title="최근 나의 소비 내역" />
       <PurchaseHistoryList />
       <BottomNav currentMenu="home" />
-      <SectionTitle title="나의 거지방 소식" />
     </>
   )
 }
