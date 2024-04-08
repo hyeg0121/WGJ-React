@@ -1,0 +1,8 @@
+.main_button {
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+}
