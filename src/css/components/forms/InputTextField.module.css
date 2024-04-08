@@ -1,0 +1,13 @@
+.main_input {
+    outline: none;
+    border: 1px solid var(--gray-300);
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.main_input::placeholder {
+    color: var(--gray-300);
+    font-weight: 300;
+}
