@@ -1,6 +1,8 @@
 import axios from 'axios'
 import {useState} from 'react'
+import {useDispatch} from 'react-redux'
 import {useNavigate} from 'react-router-dom'
+import {loginSuccess} from '../actions/UserAction'
 import InputTextField from '../components/forms/InputTextField'
 import MainButton from '../components/forms/MainButton'
 import styles from '../css/page/SignIn.module.css'
@@ -8,6 +10,7 @@ import '../css/style.css'
 
 export default function SignIn() {
   const navigation = useNavigate()
+  const dispatch = useDispatch()
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -18,9 +21,9 @@ export default function SignIn() {
         email,
         password
       }
-      console.log(request)
-      const response = await axios.post(`http://localhost:8080/api/users/login`, request)
 
+      const response = await axios.post(`http://localhost:8080/api/users/login`, request)
+      dispatch(loginSuccess(response.data))
       if (response.status === 200) navigation('/home')
     } catch (error) {
       console.log(error)
