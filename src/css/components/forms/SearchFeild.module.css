@@ -1,0 +1,12 @@
+.container {
+    padding: 4vh 20px 4vh 20px;
+    width: 100%;
+}
+
+.search_field {
+    width: 100%;
+    padding: 12px 24px;
+    outline: none;
+    border: 1px solid var(--primary-300);
+    border-radius: 40px;
+}
