@@ -1,4 +1,5 @@
 import {Route, Routes} from 'react-router-dom'
+import CreateRoom from '../pages/CreateRoom'
 import Home from '../pages/Home'
 import Index from '../pages/Index'
 import Post from '../pages/Post'
@@ -16,6 +17,7 @@ export default function RouterSetup() {
       <Route path="/post" element={<Post />} />
       <Route path="/room" element={<Room />} />
       <Route path="/profile" element={<Profile />} />
+      <Route path="/room/create" element={<CreateRoom />} />
       <Route path="*" element={<NoMatch />} />
     </Routes>
   )
